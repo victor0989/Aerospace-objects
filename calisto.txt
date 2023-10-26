@@ -1,0 +1,61 @@
+calisto.all_info()
+
+Inertia Details
+
+Rocket Mass: 14.426 kg
+Rocket Dry Mass: 16.241 kg (With Motor)
+Rocket Mass: 19.197 kg (With Propellant)
+Rocket Inertia (with motor, but without propellant) 11: 7.864 kg*m2
+Rocket Inertia (with motor, but without propellant) 22: 7.864 kg*m2
+Rocket Inertia (with motor, but without propellant) 33: 0.036 kg*m2
+Rocket Inertia (with motor, but without propellant) 12: 0.000 kg*m2
+Rocket Inertia (with motor, but without propellant) 13: 0.000 kg*m2
+Rocket Inertia (with motor, but without propellant) 23: 0.000 kg*m2
+
+
+Geometrical Parameters
+
+Rocket Maximum Radius: 0.0635 m
+Rocket Frontal Area: 0.012668 m2
+
+Rocket Distances
+Rocket Center of Dry Mass - Center of Mass withour Motor: 0.105 m
+Rocket Center of Dry Mass - Nozzle Exit Distance: 1.150 m
+Rocket Center of Dry Mass - Center of Propellant Mass: 0.753 m
+Rocket Center of Mass - Rocket Loaded Center of Mass: 0.116 m
+
+
+Aerodynamics Lift Coefficient Derivatives
+
+Nose Cone Lift Coefficient Derivative: 2.000/rad
+Fins Lift Coefficient Derivative: 6.280/rad
+Tail Lift Coefficient Derivative: -1.061/rad
+
+Aerodynamics Center of Pressure
+
+Nose Cone Center of Pressure to CM: 0.999 m
+Fins Center of Pressure to CM: -1.100 m
+Tail Center of Pressure to CM: -1.223 m
+Distance - Center of Pressure to Center of Dry Mass: 0.279 m
+Initial Static Margin: 2.199 c
+Final Static Margin: 3.112 c
+
+
+Parachute Details
+
+Parachute Main with a cd_s of 10.0000 m2
+Ejection signal trigger: 800 m (AGL)
+Ejection system refresh rate: 105.000 Hz
+Time between ejection signal is triggered and the parachute is fully opened: 1.5 s
+
+
+Parachute Details
+
+Parachute Drogue with a cd_s of 1.0000 m2
+Ejection signal trigger: At Apogee
+Ejection system refresh rate: 105.000 Hz
+Time between ejection signal is triggered and the parachute is fully opened: 1.5 s
+
+
+
+Mass Plots
