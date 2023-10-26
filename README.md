@@ -13,3 +13,5 @@ PROJECT-STRUCTURE#
 -Liquid_Motor(Thermodynamics)
 
 -RODOS for aerospace terminals(static analysis of kernels CPU) for satellites
+
+Pay special attention to the flux_time, liquid_mass_flow_rate_in, liquid_mass_flow_rate_out, gas_mass_flow_rate_in and gas_mass_flow_rate_out parameters.
