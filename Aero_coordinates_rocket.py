@@ -1,3 +1,26 @@
+>>> from rocketpy import Rocket
+>>> calisto = Rocket(
+...     radius=127 / 2000,
+...     mass=14.426,
+...     inertia=(6.321, 6.321, 0.034),
+...     power_off_drag="../data/calisto/powerOffDragCurve.csv",
+...     power_on_drag="../data/calisto/powerOnDragCurve.csv",
+...     center_of_mass_without_motor=0,
+...     coordinate_system_orientation="tail_to_nose",
+... )
+
+#CSV file
+0.0, 0.0
+0.1, 0.4018816
+0.2, 0.38821269
+0.3, 0.38150576
+0.4, 0.37946785
+0.5, 0.38118499
+0.6, 0.38947261
+0.7, 0.40604949
+0.8, 0.40110651
+0.9, 0.45696342
+1.0, 0.62744566
 #The airfoil parameter can be None, in which case fins will be treated as flat plates. Otherwise, it can be a tuple of the form (path, units).
 #The path is the path to the airfoil CSV file in which the first column is the angle of attack and the second column is the lift coefficient.
 #The units is the unit of the first column of the CSV file. It can be either "radians" or "degrees".
